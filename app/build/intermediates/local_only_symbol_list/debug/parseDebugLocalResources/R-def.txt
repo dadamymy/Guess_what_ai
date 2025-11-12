@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+font zaozigongfangyuanqipaopao
+id buttonAI
+id buttonClear
+id buttonStart
+id buttonUser
+id drawingView
+id imageButton
+id linearLayoutButtons
+id main
+id textViewTitle
+id txt_Title
+layout activity_draw
+layout activity_main
+layout activity_select_mode
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Guess_what_ai
+style Theme.Guess_what_ai
+xml backup_rules
+xml data_extraction_rules
