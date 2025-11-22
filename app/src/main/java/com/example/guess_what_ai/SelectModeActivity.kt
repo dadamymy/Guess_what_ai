@@ -2,6 +2,7 @@ package com.example.guess_what_ai
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.guess_what_ai.databinding.ActivitySelectModeBinding
