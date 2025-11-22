@@ -26,6 +26,9 @@ public final class ActivityDrawBinding implements ViewBinding {
   public final Button buttonClear;
 
   @NonNull
+  public final Button buttonFinish;
+
+  @NonNull
   public final DrawingView drawingView;
 
   @NonNull
@@ -38,10 +41,12 @@ public final class ActivityDrawBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   private ActivityDrawBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonClear,
-      @NonNull DrawingView drawingView, @NonNull ImageButton imageButton,
-      @NonNull LinearLayout linearLayoutButtons, @NonNull ConstraintLayout main) {
+      @NonNull Button buttonFinish, @NonNull DrawingView drawingView,
+      @NonNull ImageButton imageButton, @NonNull LinearLayout linearLayoutButtons,
+      @NonNull ConstraintLayout main) {
     this.rootView = rootView;
     this.buttonClear = buttonClear;
+    this.buttonFinish = buttonFinish;
     this.drawingView = drawingView;
     this.imageButton = imageButton;
     this.linearLayoutButtons = linearLayoutButtons;
@@ -81,6 +86,12 @@ public final class ActivityDrawBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.buttonFinish;
+      Button buttonFinish = ViewBindings.findChildViewById(rootView, id);
+      if (buttonFinish == null) {
+        break missingId;
+      }
+
       id = R.id.drawingView;
       DrawingView drawingView = ViewBindings.findChildViewById(rootView, id);
       if (drawingView == null) {
@@ -101,8 +112,8 @@ public final class ActivityDrawBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      return new ActivityDrawBinding((ConstraintLayout) rootView, buttonClear, drawingView,
-          imageButton, linearLayoutButtons, main);
+      return new ActivityDrawBinding((ConstraintLayout) rootView, buttonClear, buttonFinish,
+          drawingView, imageButton, linearLayoutButtons, main);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

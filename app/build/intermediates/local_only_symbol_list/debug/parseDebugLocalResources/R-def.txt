@@ -7,6 +7,7 @@ drawable ic_launcher_foreground
 font zaozigongfangyuanqipaopao
 id buttonAI
 id buttonClear
+id buttonFinish
 id buttonStart
 id buttonUser
 id drawingView

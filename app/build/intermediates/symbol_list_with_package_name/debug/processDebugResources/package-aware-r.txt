@@ -3213,6 +3213,7 @@ id bounceEnd
 id bounceStart
 id buttonAI
 id buttonClear
+id buttonFinish
 id buttonPanel
 id buttonStart
 id buttonUser
