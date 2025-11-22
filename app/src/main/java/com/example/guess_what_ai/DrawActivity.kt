@@ -2,13 +2,8 @@ package com.example.guess_what_ai
 
 import android.os.Bundle
 import android.view.View
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.guess_what_ai.databinding.ActivityDrawBinding
-import com.example.guess_what_ai.databinding.ActivityMainBinding
-
 class DrawActivity : AppCompatActivity() , View.OnClickListener {
     private lateinit var binding: ActivityDrawBinding
     override fun onCreate(savedInstanceState: Bundle?) {
