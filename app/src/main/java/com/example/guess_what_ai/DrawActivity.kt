@@ -12,7 +12,9 @@ class DrawActivity : AppCompatActivity() , View.OnClickListener{
         binding = ActivityDrawBinding.inflate(layoutInflater)
         setContentView(binding.root)
         val clearBtn : Button = binding.buttonClear
+        val finishBtn : Button = binding.buttonFinish
         clearBtn.setOnClickListener(this)
+        finishBtn.setOnClickListener(this)
 
     }
 
@@ -21,7 +23,11 @@ class DrawActivity : AppCompatActivity() , View.OnClickListener{
             binding.drawingView.clearCanvas()
         }
         else if (p0?.id == R.id.buttonFinish){
-
+            showResultDialog()
         }
+    }
+
+    fun showResultDialog(){
+        ResultDialog().show(supportFragmentManager, "RESULT_DIALOG")
     }
 }
