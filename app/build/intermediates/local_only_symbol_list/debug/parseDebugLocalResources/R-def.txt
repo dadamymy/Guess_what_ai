@@ -4,6 +4,7 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable popup_background
 font zaozigongfangyuanqipaopao
 id button
 id button2
@@ -18,10 +19,6 @@ id linearLayoutButtons
 id main
 id textAIAns
 id textAIAnsTitle
-id textResultTitle
-id textTarget
-id textTargetTitle
-id textTitle
 id textViewTitle
 id txt_Title
 layout activity_draw
