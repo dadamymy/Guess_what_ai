@@ -35,7 +35,7 @@ class CustomTopicDialog : DialogFragment(), View.OnClickListener {
                     Toast.makeText(requireContext(), "你還沒輸入題目", Toast.LENGTH_SHORT).show()
                 }else{
                     val intent = Intent(requireContext(), DrawActivity::class.java).apply {
-                        putExtra("MODE", binding.editTextTopic.text)
+                        putExtra("MODE", binding.editTextTopic.text.toString())
                     }
                     startActivity(intent)
                     requireActivity().finish()

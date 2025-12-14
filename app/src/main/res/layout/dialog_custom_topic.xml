@@ -30,7 +30,7 @@
 
         <EditText
             android:id="@+id/editTextTopic"
-            android:layout_width="300dp"
+            android:layout_width="245dp"
             android:layout_height="50dp"
             android:ems="10"
             android:hint="請輸入題目"

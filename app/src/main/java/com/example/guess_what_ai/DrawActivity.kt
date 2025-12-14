@@ -16,15 +16,31 @@ class DrawActivity : AppCompatActivity() , View.OnClickListener{
         binding = ActivityDrawBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initView()
+        observeViewMode()
     }
     fun initView(){
         //接收資料
-        val mode = intent.getIntExtra("MODE", 1)
+        val mode = intent.getStringExtra("MODE")
+        viewModel.initGame(mode)
         //設定按鈕
         val clearBtn : Button = binding.buttonClear
         val finishBtn : Button = binding.buttonFinish
         clearBtn.setOnClickListener(this)
         finishBtn.setOnClickListener(this)
+    }
+
+    private fun observeViewMode(){
+        viewModel.currentTopic.observe(this){topic->
+            binding.TextTopic.text = "題目是:$topic"
+        }
+        viewModel.isLoading.observe(this) { isLoading ->
+            if (isLoading) {
+                binding.TextTopic.text = "AI 出題中..." // 也可以改文字提示
+                binding.buttonFinish.isEnabled = false
+            } else {
+                binding.buttonFinish.isEnabled = true
+            }
+        }
     }
 
     override fun onClick(p0: View?) {

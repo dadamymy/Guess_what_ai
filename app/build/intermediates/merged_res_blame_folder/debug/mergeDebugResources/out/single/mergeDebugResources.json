@@ -8,10 +8,6 @@
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\font\\zaozigongfangyuanqipaopao.otf"
     },
     {
-        "merged": "com.example.guess_what_ai.app-debug-51:/layout_dialog_custom_topic.xml.flat",
-        "source": "com.example.guess_what_ai.app-main-53:/layout/dialog_custom_topic.xml"
-    },
-    {
         "merged": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-debug-51:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -48,10 +44,6 @@
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.guess_what_ai.app-debug-51:/layout_dialog_result.xml.flat",
-        "source": "com.example.guess_what_ai.app-main-53:/layout/dialog_result.xml"
-    },
-    {
         "merged": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-debug-51:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -84,6 +76,10 @@
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-debug-51:\\layout_dialog_custom_topic.xml.flat",
+        "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\layout\\dialog_custom_topic.xml"
+    },
+    {
         "merged": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-debug-51:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -94,5 +90,9 @@
     {
         "merged": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-debug-51:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\honda\\.gradle\\daemon\\8.11.1\\com.example.guess_what_ai.app-main-53:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.guess_what_ai.app-debug-51:/layout_activity_draw.xml.flat",
+        "source": "com.example.guess_what_ai.app-main-53:/layout/activity_draw.xml"
     }
 ]
