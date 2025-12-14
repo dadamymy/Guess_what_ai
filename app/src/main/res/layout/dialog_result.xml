@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="答案是..."
+            android:text="AI的答案是..."
             android:textColor="#333333"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -46,7 +46,7 @@
             android:layout_marginTop="20dp">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonYes"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
@@ -59,13 +59,13 @@
                 android:layout_height="0dp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonRetry"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="48dp"
-                android:text="重畫.."
-                android:textSize="16sp"
-                android:backgroundTint="#AFCBFF" />
+                android:layout_weight="1"
+                android:backgroundTint="#AFCBFF"
+                android:text="重玩..."
+                android:textSize="16sp" />
         </LinearLayout>
 
     </LinearLayout>

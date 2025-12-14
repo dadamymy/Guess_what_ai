@@ -45,11 +45,10 @@ class DrawViewModel : ViewModel() {
     fun submitDrawing(bitmap: Bitmap) {
         val topic = _currentTopic.value ?: return // 如果沒題目就不送出
 
-        _isLoading.value = true
         viewModelScope.launch {
             val (isCorrect, comment) = geminiHelper.verifyDrawing(bitmap, topic)
-            // 收到結果，通知 UI
-            //_gameResult.value = Triple(isCorrect, currentTopic, comment)
+//             收到結果，通知 UI
+            _gameResult.value = Triple(isCorrect, topic, comment)
             _isLoading.value = false // 隱藏轉圈圈
         }
     }

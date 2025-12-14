@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.drawToBitmap
 import com.example.guess_what_ai.databinding.ActivityDrawBinding
 class DrawActivity : AppCompatActivity() , View.OnClickListener{
     private lateinit var binding: ActivityDrawBinding
@@ -41,18 +42,29 @@ class DrawActivity : AppCompatActivity() , View.OnClickListener{
                 binding.buttonFinish.isEnabled = true
             }
         }
+        viewModel.gameResult.observe(this) { (isCorrect, topic, comment) ->
+            showResultDialog(isCorrect, topic, comment)
+        }
     }
 
     override fun onClick(p0: View?) {
-        if (p0?.id == R.id.buttonClear){
+        if (p0?.id == binding.buttonClear.id){
             binding.drawingView.clearCanvas()
         }
-        else if (p0?.id == R.id.buttonFinish){
-            showResultDialog()
+        else if (p0?.id == binding.buttonFinish.id){
+            val bitmap = binding.drawingView.drawToBitmap()
+            viewModel.submitDrawing(bitmap)
         }
     }
 
-    fun showResultDialog(){
-        ResultDialog().show(supportFragmentManager, "RESULT_DIALOG")
+    fun showResultDialog(isCorrect: Boolean, topic: String, aiComment: String){
+        val dialog = ResultDialog()
+        val args = Bundle().apply {
+            putBoolean("IS_CORRECT", isCorrect)
+            putString("TOPIC", topic)
+            putString("AI_COMMENT", aiComment)
+        }
+        dialog.arguments = args
+        dialog.show(supportFragmentManager, "RESULT_DIALOG")
     }
 }
