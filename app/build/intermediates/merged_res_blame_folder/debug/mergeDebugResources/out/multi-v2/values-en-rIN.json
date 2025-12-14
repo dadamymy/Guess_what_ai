@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.guess_what_ai.app-mergeDebugResources-39:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.example.guess_what_ai.app-mergeDebugResources-49:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\0308bc12047a01c464296daf23b9e298\\transformed\\core-1.17.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\176602f89ef85b6819c1e764a31b158b\\transformed\\core-1.17.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\21f4ae0f16867b04f1864f4e66dac8ab\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\9dd1605336b53f815a49400735f153f5\\transformed\\appcompat-1.7.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

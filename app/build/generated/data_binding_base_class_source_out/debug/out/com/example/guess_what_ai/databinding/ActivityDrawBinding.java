@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,6 +24,12 @@ public final class ActivityDrawBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageButton ButtonImage;
+
+  @NonNull
+  public final TextView TextTopic;
+
+  @NonNull
   public final Button buttonClear;
 
   @NonNull
@@ -32,23 +39,21 @@ public final class ActivityDrawBinding implements ViewBinding {
   public final DrawingView drawingView;
 
   @NonNull
-  public final ImageButton imageButton;
-
-  @NonNull
   public final LinearLayout linearLayoutButtons;
 
   @NonNull
   public final ConstraintLayout main;
 
-  private ActivityDrawBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonClear,
-      @NonNull Button buttonFinish, @NonNull DrawingView drawingView,
-      @NonNull ImageButton imageButton, @NonNull LinearLayout linearLayoutButtons,
+  private ActivityDrawBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton ButtonImage,
+      @NonNull TextView TextTopic, @NonNull Button buttonClear, @NonNull Button buttonFinish,
+      @NonNull DrawingView drawingView, @NonNull LinearLayout linearLayoutButtons,
       @NonNull ConstraintLayout main) {
     this.rootView = rootView;
+    this.ButtonImage = ButtonImage;
+    this.TextTopic = TextTopic;
     this.buttonClear = buttonClear;
     this.buttonFinish = buttonFinish;
     this.drawingView = drawingView;
-    this.imageButton = imageButton;
     this.linearLayoutButtons = linearLayoutButtons;
     this.main = main;
   }
@@ -80,6 +85,18 @@ public final class ActivityDrawBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ButtonImage;
+      ImageButton ButtonImage = ViewBindings.findChildViewById(rootView, id);
+      if (ButtonImage == null) {
+        break missingId;
+      }
+
+      id = R.id.TextTopic;
+      TextView TextTopic = ViewBindings.findChildViewById(rootView, id);
+      if (TextTopic == null) {
+        break missingId;
+      }
+
       id = R.id.buttonClear;
       Button buttonClear = ViewBindings.findChildViewById(rootView, id);
       if (buttonClear == null) {
@@ -98,12 +115,6 @@ public final class ActivityDrawBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageButton;
-      ImageButton imageButton = ViewBindings.findChildViewById(rootView, id);
-      if (imageButton == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayoutButtons;
       LinearLayout linearLayoutButtons = ViewBindings.findChildViewById(rootView, id);
       if (linearLayoutButtons == null) {
@@ -112,8 +123,8 @@ public final class ActivityDrawBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      return new ActivityDrawBinding((ConstraintLayout) rootView, buttonClear, buttonFinish,
-          drawingView, imageButton, linearLayoutButtons, main);
+      return new ActivityDrawBinding((ConstraintLayout) rootView, ButtonImage, TextTopic,
+          buttonClear, buttonFinish, drawingView, linearLayoutButtons, main);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

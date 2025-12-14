@@ -12,9 +12,7 @@ class SelectModeActivity : AppCompatActivity(), View.OnClickListener {
 
     // 用於 Intent 的 Key
     companion object {
-        const val EXTRA_MODE = "com.example.guess_what_ai.MODE"
-        const val MODE_AI = 1
-        const val MODE_USER = 2
+        const val EXTRA_MODE = "MODE"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,17 +26,23 @@ class SelectModeActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-        val selectedMode = when (view?.id) {
-            binding.buttonAI.id -> MODE_AI
-            binding.buttonUser.id -> MODE_USER
+        when (view?.id) {
+            binding.buttonAI.id -> {
+                // 跳轉到 DrawActivity，並傳遞選擇的模式
+                val intent = Intent(this, DrawActivity::class.java).apply {
+                    putExtra(EXTRA_MODE, "AI")
+                }
+                startActivity(intent)
+                finish() // 模式選擇完成後，關閉此頁面
+            }
+            binding.buttonUser.id -> {
+                showCustomTopicDialog()
+            }
             else -> return
         }
+    }
 
-        // 跳轉到 DrawActivity，並傳遞選擇的模式
-        val intent = Intent(this, DrawActivity::class.java).apply {
-            putExtra(EXTRA_MODE, selectedMode)
-        }
-        startActivity(intent)
-        finish() // 模式選擇完成後，關閉此頁面
+    fun showCustomTopicDialog(){
+        CustomTopicDialog().show(supportFragmentManager, "CustomTopic_Dialog")
     }
 }

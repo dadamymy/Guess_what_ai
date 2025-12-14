@@ -8,135 +8,261 @@
 8        android:minSdkVersion="35"
 9        android:targetSdkVersion="36" />
 10
-11    <permission
-11-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.guess_what_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.guess_what_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:5:5-32:19
-18        android:allowBackup="true"
-18-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0308bc12047a01c464296daf23b9e298\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.Guess_what_ai" >
-29-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:13:9-51
-30        <activity
-30-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:16:9-18:40
-31            android:name="com.example.guess_what_ai.SelectModeActivity"
-31-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:17:13-47
-32            android:exported="false" />
-32-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:18:13-37
-33        <activity
-33-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:20:9-22:40
-34            android:name="com.example.guess_what_ai.DrawActivity"
-34-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:21:13-41
-35            android:exported="false" />
-35-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:22:13-37
-36        <activity
-36-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:24:9-31:20
-37            android:name="com.example.guess_what_ai.StartActivity"
-37-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:25:13-42
-38            android:exported="true" >
-38-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:26:13-36
-39            <intent-filter>
-39-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:27:13-30:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:28:17-69
-40-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:28:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:29:17-77
-42-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:29:27-74
-43            </intent-filter>
-44        </activity>
-45
-46        <provider
-46-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-47            android:name="androidx.startup.InitializationProvider"
-47-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-48            android:authorities="com.example.guess_what_ai.androidx-startup"
-48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-49            android:exported="false" >
-49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-50            <meta-data
-50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-52                android:value="androidx.startup" />
-52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\d1d3aba3f5caec4b6d6b79f8f551944d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-53            <meta-data
-53-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\de4a5f1cf81d99cf652f716435667452\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-54-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\de4a5f1cf81d99cf652f716435667452\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-55                android:value="androidx.startup" />
-55-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\de4a5f1cf81d99cf652f716435667452\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-56            <meta-data
-56-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-57                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-57-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-58                android:value="androidx.startup" />
-58-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-59        </provider>
+11    <!-- Required permission for App measurement to run. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:5-67
+12-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:23:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:5-79
+13-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:5-68
+14-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:5-79
+16-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+17-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:5-88
+17-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:26:22-85
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+18-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:5-82
+18-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:27:22-79
+19
+20    <permission
+20-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.guess_what_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.guess_what_ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:5:5-32:19
+27        android:allowBackup="true"
+27-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:6:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.17.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\176602f89ef85b6819c1e764a31b158b\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:7:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:8:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:9:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:10:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:11:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:12:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Guess_what_ai" >
+38-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:13:9-51
+39        <activity
+39-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:16:9-18:40
+40            android:name="com.example.guess_what_ai.SelectModeActivity"
+40-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:17:13-47
+41            android:exported="false" />
+41-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:18:13-37
+42        <activity
+42-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:20:9-22:40
+43            android:name="com.example.guess_what_ai.DrawActivity"
+43-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:21:13-41
+44            android:exported="false" />
+44-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:22:13-37
+45        <activity
+45-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:24:9-31:20
+46            android:name="com.example.guess_what_ai.StartActivity"
+46-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:25:13-42
+47            android:exported="true" >
+47-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:26:13-36
+48            <intent-filter>
+48-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:27:13-30:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:28:17-69
+49-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:28:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:29:17-77
+51-->C:\Users\honda\AndroidStudioProjects\Guess_what_ai\app\src\main\AndroidManifest.xml:29:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <receiver
+55-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:29:9-33:20
+56            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+56-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:30:13-85
+57            android:enabled="true"
+57-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:31:13-35
+58            android:exported="false" >
+58-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:32:13-37
+59        </receiver>
 60
-61        <receiver
-61-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-62            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-62-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-63            android:directBootAware="false"
-63-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-64            android:enabled="true"
-64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-65            android:exported="true"
-65-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-66            android:permission="android.permission.DUMP" >
-66-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-67            <intent-filter>
-67-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-68                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-69            </intent-filter>
-70            <intent-filter>
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-71                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-72            </intent-filter>
-73            <intent-filter>
-73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-74                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-75            </intent-filter>
-76            <intent-filter>
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-77                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\c794874a65665fc47977703e2698efe8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-78            </intent-filter>
-79        </receiver>
-80    </application>
-81
-82</manifest>
+61        <service
+61-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:35:9-38:40
+62            android:name="com.google.android.gms.measurement.AppMeasurementService"
+62-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:36:13-84
+63            android:enabled="true"
+63-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:37:13-35
+64            android:exported="false" />
+64-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:38:13-37
+65        <service
+65-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:39:9-43:72
+66            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+66-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:40:13-87
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:41:13-35
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:42:13-37
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[com.google.android.gms:play-services-measurement:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\751b92556e2ddb5405b76b44955f7ad5\transformed\play-services-measurement-23.0.0\AndroidManifest.xml:43:13-69
+70        <service
+70-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:30:9-36:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:31:13-84
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:32:13-37
+74            <meta-data
+74-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:33:13-35:85
+75                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+75-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:34:17-139
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.android.gms:play-services-measurement-api:23.0.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\67eb3df9be1377645ff54fc6a96229cd\transformed\play-services-measurement-api-23.0.0\AndroidManifest.xml:35:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-ai:17.6.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5d10313e383dcddff907aaa3e2725ecf\transformed\firebase-ai-17.6.0\AndroidManifest.xml:31:13-33:85
+78                android:name="com.google.firebase.components:com.google.firebase.ai.FirebaseAIRegistrar"
+78-->[com.google.firebase:firebase-ai:17.6.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5d10313e383dcddff907aaa3e2725ecf\transformed\firebase-ai-17.6.0\AndroidManifest.xml:32:17-105
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-ai:17.6.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5d10313e383dcddff907aaa3e2725ecf\transformed\firebase-ai-17.6.0\AndroidManifest.xml:33:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:15:13-17:85
+81                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+81-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:16:17-130
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:17:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:18:13-20:85
+84                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+84-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:19:17-127
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-installations:19.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\480de09edb0db0fab2b13465ad541978\transformed\firebase-installations-19.0.1\AndroidManifest.xml:20:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+87                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+87-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+89        </service>
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+93            android:authorities="com.example.guess_what_ai.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+95            android:exported="false"
+95-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+96            android:initOrder="100" />
+96-->[com.google.firebase:firebase-common:22.0.1] C:\Users\honda\.gradle\caches\8.11.1\transforms\5038b7e6ca522bacfdc6e2477fe7d1a6\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+97        <provider
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+98            android:name="androidx.startup.InitializationProvider"
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+99            android:authorities="com.example.guess_what_ai.androidx-startup"
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+100            android:exported="false" >
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+101            <meta-data
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+103                android:value="androidx.startup" />
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\0a97d9bcd57d0dbd576351f6624e721e\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\cf58666ac3d494affc5c0d38acfb9621\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\cf58666ac3d494affc5c0d38acfb9621\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\honda\.gradle\caches\8.11.1\transforms\cf58666ac3d494affc5c0d38acfb9621\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\f719dfd497d53362d3c91950d6ec9c03\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+113            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+113-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\f719dfd497d53362d3c91950d6ec9c03\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\f719dfd497d53362d3c91950d6ec9c03\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\f719dfd497d53362d3c91950d6ec9c03\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+116
+117        <receiver
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+118            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+119            android:directBootAware="false"
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+120            android:enabled="true"
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+121            android:exported="true"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+122            android:permission="android.permission.DUMP" >
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+124                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+127                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+130                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+133                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\256de03b96a4a13fd36b481f803d5ec5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+134            </intent-filter>
+135        </receiver>
+136
+137        <uses-library
+137-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\honda\.gradle\caches\8.11.1\transforms\0b1c648e96797fa4825cb2c9a9ee4d35\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:23:9-25:40
+138            android:name="android.ext.adservices"
+138-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\honda\.gradle\caches\8.11.1\transforms\0b1c648e96797fa4825cb2c9a9ee4d35\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:24:13-50
+139            android:required="false" />
+139-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] C:\Users\honda\.gradle\caches\8.11.1\transforms\0b1c648e96797fa4825cb2c9a9ee4d35\transformed\ads-adservices-1.1.0-beta11\AndroidManifest.xml:25:13-37
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5a68652c3fbf41599270a2e2bcc799c4\transformed\play-services-basement-18.5.0\AndroidManifest.xml:21:9-23:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5a68652c3fbf41599270a2e2bcc799c4\transformed\play-services-basement-18.5.0\AndroidManifest.xml:22:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:18.5.0] C:\Users\honda\.gradle\caches\8.11.1\transforms\5a68652c3fbf41599270a2e2bcc799c4\transformed\play-services-basement-18.5.0\AndroidManifest.xml:23:13-66
+144    </application>
+145
+146</manifest>

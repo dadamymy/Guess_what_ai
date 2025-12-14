@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.guess_what_ai.app-mergeDebugResources-39:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.guess_what_ai.app-mergeDebugResources-49:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\3769ef1e4b6c804db0ae3e723bd238a3\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\honda\\.gradle\\caches\\8.11.1\\transforms\\ef67fb4d6b235a348ad55a3f6037365a\\transformed\\material-1.12.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
 //    id("com.android.application")
     id("com.google.gms.google-services")
 }
@@ -60,4 +60,9 @@ dependencies {
     // you don't specify versions in Firebase library dependencies
     implementation("com.google.firebase:firebase-ai")
     implementation("com.google.firebase:firebase-analytics")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation("androidx.activity:activity-ktx:1.8.0")
+    implementation("com.google.ai.client.generativeai:generativeai:0.9.0")
 }
