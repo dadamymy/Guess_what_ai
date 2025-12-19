@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1091591544054",
+    "project_id": "guess-what-ai",
+    "storage_bucket": "guess-what-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091591544054:android:4ad227227fed4d8c71e0d7",
+        "android_client_info": {
+          "package_name": "com.example.guess_what_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmCO-GRU7vVYyFmRHKlwKFzOZn8RkBr_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

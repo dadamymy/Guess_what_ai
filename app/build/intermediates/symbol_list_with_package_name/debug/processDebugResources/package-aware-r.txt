@@ -3269,7 +3269,6 @@ id buttonRetry
 id buttonStart
 id buttonSubmit
 id buttonUser
-id buttonYes
 id cache_measures
 id callMeasure
 id cancel_action

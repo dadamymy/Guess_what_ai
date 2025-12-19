@@ -16,7 +16,6 @@ id buttonRetry
 id buttonStart
 id buttonSubmit
 id buttonUser
-id buttonYes
 id drawingView
 id editTextTopic
 id linearLayoutButtons
